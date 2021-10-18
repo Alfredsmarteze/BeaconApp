@@ -1,0 +1,64 @@
+﻿@model BeaconApp.Models.IBS_Currency
+@{
+    Layout = null;
+}
+@*@using (Html.BeginForm("AddorEdit", "Home", FormMethod.Post, new { onsubmit = "return SubmitForm(this)" }))
+    {*@
+
+<form asp-action="AddorEdit" method="post" onsubmit="return SubmitForm(this)">
+    <div clas="shadow-lg">
+        <br />
+        <div class="form-control">
+            @Html.HiddenFor(s => s.ID)
+            @*<input type="hidden" asp-for="ID" /><br>*@
+            <div class="col">
+                <div class="form-group offset-md-0">
+                    <label asp-for="ID_Currency" class="control-label"></label>
+                    <input asp-for="ID_Currency" class="form-control" />
+                    <span asp-validation-for="ID_Currency" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group offset-md-0">
+                    <label asp-for="Currency" class="control-label"></label>
+                    <input asp-for="Currency" class="form-control" />
+                    <span asp-validation-for="Currency" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group offset-md-0">
+                    <label asp-for="Unit" class="control-label"></label>
+                    <input asp-for="Unit" class="form-control" />
+                    <span asp-validation-for="Unit" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group text-center">
+                <input type="submit" value="Submit" class="btn btn-primary" />
+                <input type="reset" value="Reset" class="btn btn-secondary" />
+            </div>
+
+        </div>
+    </div>
+</form>
+
+@*@Html.HiddenFor(s => s.ID)
+    <div class="form-group">
+        @Html.LabelFor(s => s.ID_Currency, new { @class = "control-label" })
+        @Html.EditorFor(s => s.ID_Currency, new { htmlattribute = new { @classs = "form-control" } })
+        @Html.ValidationMessageFor(s => s.ID_Currency)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.Currency, new { @class = "control-label" })
+        @Html.EditorFor(s => s.Currency, new { htmlattribute = new { @classs = "form-control" } })
+        @Html.ValidationMessageFor(s => s.Currency)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.Unit, new { @class = "control-label" })
+        @Html.EditorFor(s => s.Unit, new { htmlattribute = new { @classs = "form-control" } })
+        @Html.ValidationMessageFor(s => s.Unit)
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-primary" />
+        <input type="reset" value="Reset" class="btn">
+    </div>*@
+
